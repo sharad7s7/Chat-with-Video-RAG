@@ -7,16 +7,16 @@
 ## ▶️ How to Run
 
 1.Extracts audio from the DSA lecture videos using ffmpeg.
- python process_videos.py
+ - python process_videos.py
 
 2.Transcribes and translates audio files into timestamped subtitle chunks.
- python create_chunks.py
+ - python create_chunks.py
 
 3.Generates vector embeddings for each subtitle chunk and stores them for retrieval.
- python create_embeddings.py
+ - python create_embeddings.py
 
 4.Accepts a user question, retrieves relevant video chunks, and generates a grounded answer with video timestamps.
- python process_inputs.py
+ - process_inputs.py
 
 ![RAG Pipeline](assets/pipeline.png)
 
