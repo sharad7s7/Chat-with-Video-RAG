@@ -8,3 +8,7 @@ Thumbs.db
 
 # VS Code
 .vscode/
+
+prompt.txt
+response.txt
+embeddings.joblib
