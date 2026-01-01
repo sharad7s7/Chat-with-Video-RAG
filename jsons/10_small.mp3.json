@@ -1,0 +1,1176 @@
+[
+    {
+        "chunks": [
+            {
+                "number": "10",
+                "title": "small",
+                "start": 0.0,
+                "end": 4.3,
+                "text": " In this video, we are going to do a lead code 1394 question."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 4.3,
+                "end": 6.8,
+                "text": " Find a lucky integer in an array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 6.8,
+                "end": 8.26,
+                "text": " It's an easy question."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 8.26,
+                "end": 9.06,
+                "text": " It's a very good thing."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 9.06,
+                "end": 10.74,
+                "text": " There is an array in front of you."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 10.74,
+                "end": 11.9,
+                "text": " 2, 2, 3, 4."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 11.9,
+                "end": 14.14,
+                "text": " Now what is the lucky integer in this?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 14.14,
+                "end": 15.06,
+                "text": " The question is,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 15.06,
+                "end": 20.66,
+                "text": " Lucky integer is an integer that has a frequency in the array equal to its value."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 20.66,
+                "end": 26.560000000000002,
+                "text": " That means, the frequency of that number itself should be equal to that number itself."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 26.560000000000002,
+                "end": 28.900000000000002,
+                "text": " So, it will be called Lucky integer."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 28.9,
+                "end": 32.32,
+                "text": " Now, many people can see Lucky integer as you can see here."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 32.32,
+                "end": 33.72,
+                "text": " 1 is coming once."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 33.72,
+                "end": 34.68,
+                "text": " This is also lucky."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 34.68,
+                "end": 36.1,
+                "text": " 2 is coming twice."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 36.1,
+                "end": 36.92,
+                "text": " This is also lucky."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 36.92,
+                "end": 38.2,
+                "text": " 3 is coming thrice."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 38.2,
+                "end": 39.08,
+                "text": " This is also lucky."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 39.08,
+                "end": 42.92,
+                "text": " We have to return the largest Lucky integer."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 42.92,
+                "end": 44.959999999999994,
+                "text": " If there is no Lucky integer,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 44.959999999999994,
+                "end": 46.8,
+                "text": " then we have to return minus 1."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 46.8,
+                "end": 47.8,
+                "text": " As you can see here."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 47.8,
+                "end": 49.2,
+                "text": " 2 is coming thrice."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 49.2,
+                "end": 50.8,
+                "text": " That means, 2 is not lucky."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 50.8,
+                "end": 51.959999999999994,
+                "text": " 2 should have been 2."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 51.959999999999994,
+                "end": 53.56,
+                "text": " 3 is coming twice."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 53.56,
+                "end": 54.68,
+                "text": " This is also not lucky."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 54.68,
+                "end": 56.599999999999994,
+                "text": " There is no lucky in this array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 56.6,
+                "end": 60.1,
+                "text": " So, our answer will be minus 1."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 60.1,
+                "end": 62.42,
+                "text": " We can do it with a simple hash map."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 62.42,
+                "end": 67.94,
+                "text": " We can store the frequency of the key as number and value in the hash map."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 67.94,
+                "end": 68.94,
+                "text": " Then we will put a loop."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 68.94,
+                "end": 72.22,
+                "text": " Then we will see the frequency of the number."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 72.22,
+                "end": 73.98,
+                "text": " That number itself is equal."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 73.98,
+                "end": 76.54,
+                "text": " Basically, we will see the face of the hash map."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 76.54,
+                "end": 77.5,
+                "text": " And then what we will do?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 77.5,
+                "end": 79.34,
+                "text": " We will compare the key values of the key."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 79.34,
+                "end": 83.34,
+                "text": " The key and value that will be equal will be Lucky integer."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 83.34,
+                "end": 85.34,
+                "text": " And we will return the largest one."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 85.34,
+                "end": 86.42,
+                "text": " Okay, this is the way."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 86.44,
+                "end": 87.44,
+                "text": " Now you will see,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 87.44,
+                "end": 92.0,
+                "text": " whenever the integer in the constraint in the question is given,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 92.0,
+                "end": 93.44,
+                "text": " the limit is given."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 93.44,
+                "end": 94.44,
+                "text": " And what is the limit?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 94.44,
+                "end": 96.72,
+                "text": " It will be finite."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 96.72,
+                "end": 99.12,
+                "text": " But there are some small limits like 500."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 99.12,
+                "end": 99.62,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 99.62,
+                "end": 100.12,
+                "text": " Or 1000."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 100.12,
+                "end": 101.32000000000001,
+                "text": " There are not 1 million."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 101.32000000000001,
+                "end": 102.12,
+                "text": " There are not 10 million."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 102.12,
+                "end": 103.12,
+                "text": " There are not crores."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 103.12,
+                "end": 103.62,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 103.62,
+                "end": 106.92,
+                "text": " So, this means that I can use the count array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 106.92,
+                "end": 107.42,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 107.42,
+                "end": 108.92,
+                "text": " I can use the count array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 108.92,
+                "end": 110.12,
+                "text": " What happens in the count array?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 110.12,
+                "end": 111.32000000000001,
+                "text": " In the count array,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 111.32000000000001,
+                "end": 112.92,
+                "text": " I will tell you."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 113.02,
+                "end": 114.92,
+                "text": " Now, as we have given that"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 114.92,
+                "end": 119.92,
+                "text": " every integer will be 1 bigger than 500 and smaller than 500."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 119.92,
+                "end": 121.42,
+                "text": " So, we take an array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 121.42,
+                "end": 122.42,
+                "text": " A very big array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 122.42,
+                "end": 124.22,
+                "text": " Of 501 length."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 124.22,
+                "end": 124.72,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 124.72,
+                "end": 128.22,
+                "text": " We know the index of 0, 1, and 500 will be given."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 128.22,
+                "end": 128.72,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 128.72,
+                "end": 129.92000000000002,
+                "text": " Now, you will see,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 129.92000000000002,
+                "end": 134.42000000000002,
+                "text": " from 1, 2, 3 to 500, will be the index."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 134.42000000000002,
+                "end": 134.92000000000002,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 134.92000000000002,
+                "end": 137.12,
+                "text": " The number that will come in our question,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 137.12,
+                "end": 138.92000000000002,
+                "text": " like this list in the list,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 138.92000000000002,
+                "end": 140.42000000000002,
+                "text": " our 1, 2, 3, 2, okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 140.42000000000002,
+                "end": 141.22,
+                "text": " 3, 3."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 141.22,
+                "end": 142.52,
+                "text": " Sir, this is my list."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 142.52,
+                "end": 143.02,
+                "text": " Question."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 143.02,
+                "end": 143.52,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 143.52,
+                "end": 146.02,
+                "text": " Now, the number of numbers that will come in this list,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 146.02,
+                "end": 147.22,
+                "text": " will be in this range."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 147.22,
+                "end": 147.92,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 147.92,
+                "end": 151.72,
+                "text": " And I have written this range here."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 151.72,
+                "end": 154.72,
+                "text": " In this count array, which is of 501 length."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 154.72,
+                "end": 155.52,
+                "text": " Count array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 155.52,
+                "end": 156.72,
+                "text": " Let's call it CA."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 156.72,
+                "end": 157.72,
+                "text": " What will happen?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 157.72,
+                "end": 159.42,
+                "text": " In this count array,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 159.42,
+                "end": 160.22,
+                "text": " what is the index?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 160.22,
+                "end": 162.22,
+                "text": " The index is the number itself."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 162.22,
+                "end": 163.02,
+                "text": " The number itself."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 163.02,
+                "end": 164.42,
+                "text": " And what will happen in the value?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 164.42,
+                "end": 166.82,
+                "text": " The frequency will be in the value."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 166.82,
+                "end": 168.02,
+                "text": " Like here,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 168.02,
+                "end": 169.82,
+                "text": " I will run a loop in this."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 169.82,
+                "end": 171.92,
+                "text": " 1, 1, 1, 1, 1, 1,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 171.92,
+                "end": 172.92,
+                "text": " then I saw 2,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 172.92,
+                "end": 174.12,
+                "text": " I increased it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 174.12,
+                "end": 175.12,
+                "text": " Then I saw 3,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 175.12,
+                "end": 175.92,
+                "text": " I wrote 1,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 175.92,
+                "end": 176.82,
+                "text": " then I saw 2,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 176.82,
+                "end": 177.82,
+                "text": " then I went to 2 again,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 177.82,
+                "end": 179.32,
+                "text": " and I increased it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 179.32,
+                "end": 179.82,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 179.82,
+                "end": 180.51999999999998,
+                "text": " Then I went to 3,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 180.51999999999998,
+                "end": 181.32,
+                "text": " I went to 3,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 181.32,
+                "end": 182.12,
+                "text": " I increased it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 182.12,
+                "end": 183.01999999999998,
+                "text": " Then I went to 3,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 183.01999999999998,
+                "end": 184.32,
+                "text": " I increased it again."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 184.32,
+                "end": 184.62,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 184.62,
+                "end": 186.32,
+                "text": " So, what will happen in the count array?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 186.32,
+                "end": 188.92,
+                "text": " The number will be indexed,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 188.92,
+                "end": 190.51999999999998,
+                "text": " and what will be its value?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 190.51999999999998,
+                "end": 191.62,
+                "text": " Its frequency."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 191.62,
+                "end": 192.01999999999998,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 192.01999999999998,
+                "end": 193.51999999999998,
+                "text": " Now, in this count array,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 193.51999999999998,
+                "end": 195.22,
+                "text": " run the loop from the last."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 195.22,
+                "end": 197.72,
+                "text": " Because we have to see the greatest lucky teacher."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 197.72,
+                "end": 199.62,
+                "text": " Run the loop from the last."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 199.62,
+                "end": 204.32,
+                "text": " And the index and its value are equal to the integer,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 204.32,
+                "end": 205.72,
+                "text": " then return it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 205.72,
+                "end": 206.12,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 206.12,
+                "end": 207.22,
+                "text": " We got the tea here."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 207.22,
+                "end": 208.12,
+                "text": " 500, 500."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 208.12,
+                "end": 208.92000000000002,
+                "text": " If we get the tea here,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 208.92000000000002,
+                "end": 209.72,
+                "text": " then return it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 209.72,
+                "end": 211.02,
+                "text": " We don't have to go ahead."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 211.02,
+                "end": 211.32,
+                "text": " Why?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 211.32,
+                "end": 212.22,
+                "text": " Because we are going back,"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 212.22,
+                "end": 213.82,
+                "text": " so the maximum will be here."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 213.82,
+                "end": 215.92000000000002,
+                "text": " Because we are at the index 500."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 215.92000000000002,
+                "end": 216.32,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 216.32,
+                "end": 216.72,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 216.72,
+                "end": 219.12,
+                "text": " I hope you have heard it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 219.12,
+                "end": 219.52,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 219.52,
+                "end": 220.82,
+                "text": " So, let's take the count array."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 220.82,
+                "end": 223.22,
+                "text": " Int CA is equal to new int."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 223.22,
+                "end": 224.92000000000002,
+                "text": " 501 length."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 224.92000000000002,
+                "end": 227.72,
+                "text": " Then run the loop for int i in."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 227.82,
+                "end": 228.52,
+                "text": " A R R."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 228.52,
+                "end": 229.82,
+                "text": " CA i."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 229.82,
+                "end": 230.62,
+                "text": " Plus plus."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 230.62,
+                "end": 231.42,
+                "text": " That's all."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 231.42,
+                "end": 234.12,
+                "text": " Our frequency table will be ready from this."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 234.12,
+                "end": 234.62,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 234.62,
+                "end": 235.82,
+                "text": " Here, it will be 501."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 235.82,
+                "end": 236.62,
+                "text": " 301."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 236.62,
+                "end": 239.32,
+                "text": " Then run the loop in the opposite CA."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 239.32,
+                "end": 242.72,
+                "text": " Int i is equal to CA dot."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 242.72,
+                "end": 244.02,
+                "text": " I know the size of CA."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 244.02,
+                "end": 245.92,
+                "text": " Take 500."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 245.92,
+                "end": 248.92,
+                "text": " i is greater than 0."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 248.92,
+                "end": 250.02,
+                "text": " i minus minus."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 250.02,
+                "end": 251.22,
+                "text": " Run the loop upside down."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 251.22,
+                "end": 251.52,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 251.52,
+                "end": 254.72,
+                "text": " If i equal equal to CA i."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 254.72,
+                "end": 256.82,
+                "text": " i equal equal to CA i."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 256.92,
+                "end": 258.71999999999997,
+                "text": " Return i."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 258.71999999999997,
+                "end": 261.52,
+                "text": " Or return minus 1."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 261.52,
+                "end": 261.82,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 261.82,
+                "end": 262.21999999999997,
+                "text": " Run it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 262.21999999999997,
+                "end": 263.32,
+                "text": " Submit and accept."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 263.32,
+                "end": 264.12,
+                "text": " Submit it."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 264.12,
+                "end": 264.71999999999997,
+                "text": " Okay?"
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 264.71999999999997,
+                "end": 265.52,
+                "text": " Accepted."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 265.52,
+                "end": 266.52,
+                "text": " Very big beats."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 266.52,
+                "end": 267.32,
+                "text": " 100%."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 267.32,
+                "end": 268.12,
+                "text": " Very good."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 268.12,
+                "end": 268.92,
+                "text": " That's all for the video."
+            },
+            {
+                "number": "10",
+                "title": "small",
+                "start": 268.92,
+                "end": 271.12,
+                "text": " You will get the link for the next video on this card."
+            }
+        ],
+        "text": " In this video, we are going to do a lead code 1394 question. Find a lucky integer in an array. It's an easy question. It's a very good thing. There is an array in front of you. 2, 2, 3, 4. Now what is the lucky integer in this? The question is, Lucky integer is an integer that has a frequency in the array equal to its value. That means, the frequency of that number itself should be equal to that number itself. So, it will be called Lucky integer. Now, many people can see Lucky integer as you can see here. 1 is coming once. This is also lucky. 2 is coming twice. This is also lucky. 3 is coming thrice. This is also lucky. We have to return the largest Lucky integer. If there is no Lucky integer, then we have to return minus 1. As you can see here. 2 is coming thrice. That means, 2 is not lucky. 2 should have been 2. 3 is coming twice. This is also not lucky. There is no lucky in this array. So, our answer will be minus 1. We can do it with a simple hash map. We can store the frequency of the key as number and value in the hash map. Then we will put a loop. Then we will see the frequency of the number. That number itself is equal. Basically, we will see the face of the hash map. And then what we will do? We will compare the key values of the key. The key and value that will be equal will be Lucky integer. And we will return the largest one. Okay, this is the way. Now you will see, whenever the integer in the constraint in the question is given, the limit is given. And what is the limit? It will be finite. But there are some small limits like 500. Okay? Or 1000. There are not 1 million. There are not 10 million. There are not crores. Okay? So, this means that I can use the count array. Okay? I can use the count array. What happens in the count array? In the count array, I will tell you. Now, as we have given that every integer will be 1 bigger than 500 and smaller than 500. So, we take an array. A very big array. Of 501 length. Okay? We know the index of 0, 1, and 500 will be given. Okay? Now, you will see, from 1, 2, 3 to 500, will be the index. Okay? The number that will come in our question, like this list in the list, our 1, 2, 3, 2, okay? 3, 3. Sir, this is my list. Question. Okay? Now, the number of numbers that will come in this list, will be in this range. Okay? And I have written this range here. In this count array, which is of 501 length. Count array. Let's call it CA. What will happen? In this count array, what is the index? The index is the number itself. The number itself. And what will happen in the value? The frequency will be in the value. Like here, I will run a loop in this. 1, 1, 1, 1, 1, 1, then I saw 2, I increased it. Then I saw 3, I wrote 1, then I saw 2, then I went to 2 again, and I increased it. Okay? Then I went to 3, I went to 3, I increased it. Then I went to 3, I increased it again. Okay? So, what will happen in the count array? The number will be indexed, and what will be its value? Its frequency. Okay? Now, in this count array, run the loop from the last. Because we have to see the greatest lucky teacher. Run the loop from the last. And the index and its value are equal to the integer, then return it. Okay? We got the tea here. 500, 500. If we get the tea here, then return it. We don't have to go ahead. Why? Because we are going back, so the maximum will be here. Because we are at the index 500. Okay? Okay? I hope you have heard it. Okay? So, let's take the count array. Int CA is equal to new int. 501 length. Then run the loop for int i in. A R R. CA i. Plus plus. That's all. Our frequency table will be ready from this. Okay? Here, it will be 501. 301. Then run the loop in the opposite CA. Int i is equal to CA dot. I know the size of CA. Take 500. i is greater than 0. i minus minus. Run the loop upside down. Okay? If i equal equal to CA i. i equal equal to CA i. Return i. Or return minus 1. Okay? Run it. Submit and accept. Submit it. Okay? Accepted. Very big beats. 100%. Very good. That's all for the video. You will get the link for the next video on this card."
+    }
+]

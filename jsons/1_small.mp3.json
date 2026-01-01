@@ -1,0 +1,1001 @@
+[
+    {
+        "chunks": [
+            {
+                "number": "1",
+                "title": "small",
+                "start": 0.0,
+                "end": 2.66,
+                "text": " Lead Court Question 2A24"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 2.66,
+                "end": 5.5,
+                "text": " Count Pares Whose Sum Is Less Than Target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 5.5,
+                "end": 9.58,
+                "text": " Basically we have to check how many pairs are there in this area"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 9.58,
+                "end": 11.68,
+                "text": " whose sum is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 11.68,
+                "end": 15.68,
+                "text": " For example if I take minus 1 then how many pairs will be with minus 1"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 15.68,
+                "end": 20.48,
+                "text": " minus 1, minus 1, 2 and minus 1, 1"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 20.48,
+                "end": 25.12,
+                "text": " If we look at it with 1 then no pair is being formed which is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 25.12,
+                "end": 29.36,
+                "text": " Similarly with 2, similarly with 3 and similarly with 1"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 29.36,
+                "end": 31.36,
+                "text": " if we look at it with 1 then no element is formed"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 31.36,
+                "end": 38.36,
+                "text": " Lead Court Question 3A24"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 38.36,
+                "end": 42.36,
+                "text": " Here you can see how many pairs will be with minus 6"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 42.36,
+                "end": 44.36,
+                "text": " whose sum is less than minus 2"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 44.36,
+                "end": 46.36,
+                "text": " We will check it again and again"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 46.36,
+                "end": 50.36,
+                "text": " minus 6, 2, minus 6, 5, minus 6, 2, minus 6, 7"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 50.36,
+                "end": 54.36,
+                "text": " We will check everything and check how many pairs are being formed"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 54.36,
+                "end": 56.36,
+                "text": " whose sum is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 56.36,
+                "end": 58.36,
+                "text": " What is the approach for this?"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 58.36,
+                "end": 62.36,
+                "text": " In the description we will get a time stamp if you don't want to see the boot force"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 62.36,
+                "end": 66.36,
+                "text": " 4 int i is equal to 0 i less than nums"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 66.36,
+                "end": 68.36,
+                "text": " What is the answer?"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 68.36,
+                "end": 70.36,
+                "text": " Dot size i++"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 70.36,
+                "end": 72.36,
+                "text": " We will run one more loop"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 72.36,
+                "end": 74.36,
+                "text": " 4 int j is equal to i++"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 74.36,
+                "end": 76.36,
+                "text": " From one side the other loop will run"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 76.36,
+                "end": 81.36,
+                "text": " j less than nums dot size j++"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 81.36,
+                "end": 84.36,
+                "text": " If nums dot get"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 84.36,
+                "end": 88.36,
+                "text": " j is equal to nums dot get j"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 88.36,
+                "end": 90.36,
+                "text": " is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 90.36,
+                "end": 92.36,
+                "text": " So if we run this result i++"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 92.36,
+                "end": 94.36,
+                "text": " Okay, we will not be able to run this result"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 94.36,
+                "end": 96.36,
+                "text": " We will not be able to run this result"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 96.36,
+                "end": 98.36,
+                "text": " because we are not sorted"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 98.36,
+                "end": 100.36,
+                "text": " We will submit the result"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 100.36,
+                "end": 102.36,
+                "text": " The time complexity is this much"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 102.36,
+                "end": 104.36,
+                "text": " The space complexity is this much"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 104.36,
+                "end": 106.36,
+                "text": " The space complexity is this much"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 106.36,
+                "end": 108.36,
+                "text": " We will not take any extra"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 108.36,
+                "end": 110.36,
+                "text": " Now you see it has accepted"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 110.36,
+                "end": 112.36,
+                "text": " But if you want time complexity to be better"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 112.36,
+                "end": 114.36,
+                "text": " then this is another way"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 114.36,
+                "end": 116.36,
+                "text": " What is the way?"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 116.36,
+                "end": 118.36,
+                "text": " Sort this"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 118.36,
+                "end": 120.36,
+                "text": " We will sort this"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 120.36,
+                "end": 122.36,
+                "text": " We will give a comparator"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 122.36,
+                "end": 124.36,
+                "text": " If you want to do ascending"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 124.36,
+                "end": 126.36,
+                "text": " then return a minus"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 126.36,
+                "end": 128.36,
+                "text": " In ascending order"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 128.36,
+                "end": 130.36,
+                "text": " the list will be sorted"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 130.36,
+                "end": 132.36,
+                "text": " If it was an array then we would have used arrays.sort method"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 132.36,
+                "end": 134.36,
+                "text": " Now we have sorted"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 134.36,
+                "end": 136.36,
+                "text": " Let's see what happens if we do"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 136.36,
+                "end": 138.36,
+                "text": " Take this error"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 138.36,
+                "end": 140.36,
+                "text": " Take this list"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 140.36,
+                "end": 142.36,
+                "text": " You have sorted this"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 142.36,
+                "end": 144.36,
+                "text": " minus 1,1,1,2 and 3"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 144.36,
+                "end": 146.36,
+                "text": " Now see"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 146.36,
+                "end": 148.36,
+                "text": " Obviously if you sort"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 148.36,
+                "end": 150.36,
+                "text": " then there is no use"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 150.36,
+                "end": 152.36,
+                "text": " Time complexity"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 152.36,
+                "end": 154.36,
+                "text": " and log n is sorted"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 154.36,
+                "end": 156.36,
+                "text": " and then you have taken n square"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 156.36,
+                "end": 158.36,
+                "text": " then obviously we will not be able to do two loops"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 158.36,
+                "end": 160.36,
+                "text": " We will not have to think about any other approach"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 160.36,
+                "end": 162.36,
+                "text": " Let me show you"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 162.36,
+                "end": 164.36,
+                "text": " I will take 2 points"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 164.36,
+                "end": 166.36,
+                "text": " I will take 2 points on one end"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 166.36,
+                "end": 168.36,
+                "text": " One left and one right"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 168.36,
+                "end": 170.36,
+                "text": " I will check"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 170.36,
+                "end": 172.36,
+                "text": " what is left plus right"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 172.36,
+                "end": 174.36,
+                "text": " i.e. what is minus 1 plus 3"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 174.36,
+                "end": 176.36,
+                "text": " What is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 176.36,
+                "end": 178.36,
+                "text": " Tell me"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 178.36,
+                "end": 180.36,
+                "text": " Obviously right is the mistake"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 180.36,
+                "end": 182.36,
+                "text": " Because right is the biggest"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 182.36,
+                "end": 184.36,
+                "text": " Because it is sorted in ascending order"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 184.36,
+                "end": 186.36,
+                "text": " So what does it mean?"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 186.36,
+                "end": 188.36,
+                "text": " Right minus minus"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 188.36,
+                "end": 190.36,
+                "text": " So now left is here"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 190.36,
+                "end": 192.36,
+                "text": " and right is on my 2"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 192.36,
+                "end": 194.36,
+                "text": " So tell me"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 194.36,
+                "end": 196.36,
+                "text": " What is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 196.36,
+                "end": 198.36,
+                "text": " Now see"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 198.36,
+                "end": 200.36,
+                "text": " Because left and right are satisfying"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 200.36,
+                "end": 202.36,
+                "text": " and because this array is sorted"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 202.36,
+                "end": 204.36,
+                "text": " So all the numbers"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 204.36,
+                "end": 206.36,
+                "text": " will contribute in the answer"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 206.36,
+                "end": 208.36,
+                "text": " right"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 208.36,
+                "end": 210.36,
+                "text": " Because the maximum is on the right"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 210.36,
+                "end": 212.36,
+                "text": " that is satisfying"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 212.36,
+                "end": 214.36,
+                "text": " condition"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 214.36,
+                "end": 216.36,
+                "text": " So this will also satisfy"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 216.36,
+                "end": 218.36,
+                "text": " with minus 1"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 218.36,
+                "end": 220.36,
+                "text": " I will tell you"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 220.36,
+                "end": 222.36,
+                "text": " Take 2 points"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 222.36,
+                "end": 224.36,
+                "text": " Take 1 left"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 224.36,
+                "end": 226.36,
+                "text": " and take in R is equal to"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 226.36,
+                "end": 228.36,
+                "text": " minus 1"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 228.36,
+                "end": 230.36,
+                "text": " The loop will not be equal"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 230.36,
+                "end": 232.36,
+                "text": " till the time it is running"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 232.36,
+                "end": 234.36,
+                "text": " It means all the numbers are covered"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 234.36,
+                "end": 236.36,
+                "text": " Now see"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 236.36,
+                "end": 238.36,
+                "text": " If the left one"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 238.36,
+                "end": 240.36,
+                "text": " plus the right one"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 240.36,
+                "end": 242.36,
+                "text": " is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 242.36,
+                "end": 244.36,
+                "text": " So we will do something here"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 244.36,
+                "end": 246.36,
+                "text": " If it is not less than"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 246.36,
+                "end": 248.36,
+                "text": " it means that R minus minus"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 248.36,
+                "end": 250.36,
+                "text": " So it is greater than"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 250.36,
+                "end": 252.36,
+                "text": " it means that it is not satisfied"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 252.36,
+                "end": 254.36,
+                "text": " It means that it will come in L"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 254.36,
+                "end": 256.36,
+                "text": " R minus minus"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 256.36,
+                "end": 258.36,
+                "text": " But if it is less than target"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 258.36,
+                "end": 260.36,
+                "text": " then see here"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 260.36,
+                "end": 262.36,
+                "text": " All these numbers are satisfying"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 262.36,
+                "end": 264.36,
+                "text": " The number on the right"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 264.36,
+                "end": 266.36,
+                "text": " will also do this"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 266.36,
+                "end": 268.36,
+                "text": " How many pairs will be made"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 268.36,
+                "end": 270.36,
+                "text": " How many elements are there"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 270.36,
+                "end": 272.36,
+                "text": " 1, 2, 3"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 272.36,
+                "end": 274.36,
+                "text": " I will write this"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 274.36,
+                "end": 276.36,
+                "text": " Right minus left"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 276.36,
+                "end": 278.36,
+                "text": " How many are there on the right"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 278.36,
+                "end": 280.36,
+                "text": " 3 and left is 0"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 280.36,
+                "end": 282.36,
+                "text": " So we will add"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 282.36,
+                "end": 284.36,
+                "text": " R minus L"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 284.36,
+                "end": 286.36,
+                "text": " So what we did here"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 286.36,
+                "end": 288.36,
+                "text": " The one with which the pair will be made"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 288.36,
+                "end": 290.36,
+                "text": " We counted till 2"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 290.36,
+                "end": 292.36,
+                "text": " So what we will do now"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 292.36,
+                "end": 294.36,
+                "text": " We will do left plus plus"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 294.36,
+                "end": 296.36,
+                "text": " Now it will be between"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 296.36,
+                "end": 298.36,
+                "text": " Now see 1 plus 2 is there"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 298.36,
+                "end": 300.36,
+                "text": " Which is 3 which is greater than 2"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 300.36,
+                "end": 302.36,
+                "text": " It means that it will be R minus minus"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 302.36,
+                "end": 304.36,
+                "text": " So now it will be our range"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 304.36,
+                "end": 306.36,
+                "text": " Let's run it"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 306.36,
+                "end": 308.36,
+                "text": " Submit it"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 308.36,
+                "end": 310.36,
+                "text": " How many are there in this complexity"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 310.36,
+                "end": 312.36,
+                "text": " N plus N log N"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 312.36,
+                "end": 314.36,
+                "text": " Because we took nothing"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 314.36,
+                "end": 316.36,
+                "text": " We will sort it"
+            },
+            {
+                "number": "1",
+                "title": "small",
+                "start": 338.36,
+                "end": 340.36,
+                "text": " Thank you for watching"
+            }
+        ],
+        "text": " Lead Court Question 2A24 Count Pares Whose Sum Is Less Than Target Basically we have to check how many pairs are there in this area whose sum is less than target For example if I take minus 1 then how many pairs will be with minus 1 minus 1, minus 1, 2 and minus 1, 1 If we look at it with 1 then no pair is being formed which is less than target Similarly with 2, similarly with 3 and similarly with 1 if we look at it with 1 then no element is formed Lead Court Question 3A24 Here you can see how many pairs will be with minus 6 whose sum is less than minus 2 We will check it again and again minus 6, 2, minus 6, 5, minus 6, 2, minus 6, 7 We will check everything and check how many pairs are being formed whose sum is less than target What is the approach for this? In the description we will get a time stamp if you don't want to see the boot force 4 int i is equal to 0 i less than nums What is the answer? Dot size i++ We will run one more loop 4 int j is equal to i++ From one side the other loop will run j less than nums dot size j++ If nums dot get j is equal to nums dot get j is less than target So if we run this result i++ Okay, we will not be able to run this result We will not be able to run this result because we are not sorted We will submit the result The time complexity is this much The space complexity is this much The space complexity is this much We will not take any extra Now you see it has accepted But if you want time complexity to be better then this is another way What is the way? Sort this We will sort this We will give a comparator If you want to do ascending then return a minus In ascending order the list will be sorted If it was an array then we would have used arrays.sort method Now we have sorted Let's see what happens if we do Take this error Take this list You have sorted this minus 1,1,1,2 and 3 Now see Obviously if you sort then there is no use Time complexity and log n is sorted and then you have taken n square then obviously we will not be able to do two loops We will not have to think about any other approach Let me show you I will take 2 points I will take 2 points on one end One left and one right I will check what is left plus right i.e. what is minus 1 plus 3 What is less than target Tell me Obviously right is the mistake Because right is the biggest Because it is sorted in ascending order So what does it mean? Right minus minus So now left is here and right is on my 2 So tell me What is less than target Now see Because left and right are satisfying and because this array is sorted So all the numbers will contribute in the answer right Because the maximum is on the right that is satisfying condition So this will also satisfy with minus 1 I will tell you Take 2 points Take 1 left and take in R is equal to minus 1 The loop will not be equal till the time it is running It means all the numbers are covered Now see If the left one plus the right one is less than target So we will do something here If it is not less than it means that R minus minus So it is greater than it means that it is not satisfied It means that it will come in L R minus minus But if it is less than target then see here All these numbers are satisfying The number on the right will also do this How many pairs will be made How many elements are there 1, 2, 3 I will write this Right minus left How many are there on the right 3 and left is 0 So we will add R minus L So what we did here The one with which the pair will be made We counted till 2 So what we will do now We will do left plus plus Now it will be between Now see 1 plus 2 is there Which is 3 which is greater than 2 It means that it will be R minus minus So now it will be our range Let's run it Submit it How many are there in this complexity N plus N log N Because we took nothing We will sort it Thank you for watching"
+    }
+]

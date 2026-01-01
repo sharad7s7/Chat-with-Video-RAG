@@ -1,0 +1,434 @@
+[
+    {
+        "chunks": [
+            {
+                "number": "11",
+                "title": "small",
+                "start": 0.0,
+                "end": 3.0,
+                "text": " Remove duplicates from sorted list."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 3.0,
+                "end": 8.0,
+                "text": " You have to remove duplicates in a sorted link list."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 8.0,
+                "end": 10.0,
+                "text": " There is no rocket science."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 10.0,
+                "end": 13.0,
+                "text": " You have to make 1 1 2 1 1 2 3 3 1 2 3."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 13.0,
+                "end": 15.0,
+                "text": " How can you approach?"
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 23.0,
+                "end": 24.0,
+                "text": " I will put a loop."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 24.0,
+                "end": 25.0,
+                "text": " Right now it is here."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 25.0,
+                "end": 28.0,
+                "text": " Now see what it means if it is sorted."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 28.0,
+                "end": 29.0,
+                "text": " It is a simple thing."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 29.0,
+                "end": 31.0,
+                "text": " It is written in a big size."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 31.0,
+                "end": 37.0,
+                "text": " It is also written in a constraint that it is guaranteed that the sorted will be in ascending order."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 37.0,
+                "end": 38.0,
+                "text": " There is no problem."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 38.0,
+                "end": 39.0,
+                "text": " We will use the same thing."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 39.0,
+                "end": 43.0,
+                "text": " Ascending means that duplicates will be adjacent to simple things."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 43.0,
+                "end": 48.0,
+                "text": " So suppose we have taken a pointer which is one."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 48.0,
+                "end": 51.0,
+                "text": " We will check whether it is equal or not."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 51.0,
+                "end": 55.0,
+                "text": " If it is, we will point it to 2."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 55.0,
+                "end": 56.0,
+                "text": " Do you understand?"
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 56.0,
+                "end": 60.0,
+                "text": " If not, we will continue to increase it normally."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 60.0,
+                "end": 65.0,
+                "text": " Now the condition is that it is pointing to 2."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 65.0,
+                "end": 67.0,
+                "text": " Which is not a duplicate."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 67.0,
+                "end": 69.0,
+                "text": " It means that we will increase the current."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 69.0,
+                "end": 71.0,
+                "text": " It will be current at this time."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 71.0,
+                "end": 75.0,
+                "text": " Then the condition will be checked whether it is equal to 2 or 3."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 75.0,
+                "end": 78.0,
+                "text": " It does not mean that the current is increased normally."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 78.0,
+                "end": 79.0,
+                "text": " It is now 3."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 79.0,
+                "end": 83.0,
+                "text": " Then the condition will be checked whether it is equal to 3."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 83.0,
+                "end": 88.0,
+                "text": " It means that 3 is equal to the next null of this 3."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 88.0,
+                "end": 91.0,
+                "text": " So the 3 points of this 3 will be on null."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 91.0,
+                "end": 94.0,
+                "text": " If it is not understood, it will be now."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 94.0,
+                "end": 96.0,
+                "text": " Let us take a pointer."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 96.0,
+                "end": 101.0,
+                "text": " List node name current is equal to which is pointing to the head."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 101.0,
+                "end": 105.0,
+                "text": " Where the head is pointing, the current is pointing to the head."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 105.0,
+                "end": 106.0,
+                "text": " Let us put a loop."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 106.0,
+                "end": 108.0,
+                "text": " Let us see what is written in the while."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 108.0,
+                "end": 117.0,
+                "text": " If current dot value is equal to which is the value of current K next."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 117.0,
+                "end": 118.0,
+                "text": " What does this mean?"
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 118.0,
+                "end": 124.0,
+                "text": " This means that the current K next is doing the next by duplicating it."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 124.0,
+                "end": 125.0,
+                "text": " Do you understand?"
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 125.0,
+                "end": 128.0,
+                "text": " Which is the duplicate of current dot next K next?"
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 128.0,
+                "end": 132.0,
+                "text": " In the while, if it is not equal, then let it be normal."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 132.0,
+                "end": 137.0,
+                "text": " This poor guy, the current pointer is equal to current dot next."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 137.0,
+                "end": 141.0,
+                "text": " Then we have to return the head in the end."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 141.0,
+                "end": 142.0,
+                "text": " There is no point in writing."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 142.0,
+                "end": 143.0,
+                "text": " What is written in the while?"
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 143.0,
+                "end": 148.0,
+                "text": " If the current is null, then the null pointer exception will be there."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 148.0,
+                "end": 152.0,
+                "text": " So here the current is not equal to null."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 152.0,
+                "end": 155.0,
+                "text": " And now we are checking here."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 155.0,
+                "end": 157.0,
+                "text": " Let us check this null."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 157.0,
+                "end": 160.0,
+                "text": " Current dot next is not equal to null."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 160.0,
+                "end": 162.0,
+                "text": " Current dot next is equal to null."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 162.0,
+                "end": 163.0,
+                "text": " Very good."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 163.0,
+                "end": 165.0,
+                "text": " Let us run and see."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 165.0,
+                "end": 166.0,
+                "text": " Run is done."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 166.0,
+                "end": 167.0,
+                "text": " Submit is done."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 167.0,
+                "end": 168.0,
+                "text": " Submit is also done."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 168.0,
+                "end": 170.0,
+                "text": " Time complexity is big of n."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 170.0,
+                "end": 172.0,
+                "text": " There are nodes like this."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 172.0,
+                "end": 175.0,
+                "text": " And space complexity is not something we have learned."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 175.0,
+                "end": 178.0,
+                "text": " This means space complexity will be big of 1."
+            },
+            {
+                "number": "11",
+                "title": "small",
+                "start": 195.0,
+                "end": 196.0,
+                "text": " Submit is done."
+            }
+        ],
+        "text": " Remove duplicates from sorted list. You have to remove duplicates in a sorted link list. There is no rocket science. You have to make 1 1 2 1 1 2 3 3 1 2 3. How can you approach? I will put a loop. Right now it is here. Now see what it means if it is sorted. It is a simple thing. It is written in a big size. It is also written in a constraint that it is guaranteed that the sorted will be in ascending order. There is no problem. We will use the same thing. Ascending means that duplicates will be adjacent to simple things. So suppose we have taken a pointer which is one. We will check whether it is equal or not. If it is, we will point it to 2. Do you understand? If not, we will continue to increase it normally. Now the condition is that it is pointing to 2. Which is not a duplicate. It means that we will increase the current. It will be current at this time. Then the condition will be checked whether it is equal to 2 or 3. It does not mean that the current is increased normally. It is now 3. Then the condition will be checked whether it is equal to 3. It means that 3 is equal to the next null of this 3. So the 3 points of this 3 will be on null. If it is not understood, it will be now. Let us take a pointer. List node name current is equal to which is pointing to the head. Where the head is pointing, the current is pointing to the head. Let us put a loop. Let us see what is written in the while. If current dot value is equal to which is the value of current K next. What does this mean? This means that the current K next is doing the next by duplicating it. Do you understand? Which is the duplicate of current dot next K next? In the while, if it is not equal, then let it be normal. This poor guy, the current pointer is equal to current dot next. Then we have to return the head in the end. There is no point in writing. What is written in the while? If the current is null, then the null pointer exception will be there. So here the current is not equal to null. And now we are checking here. Let us check this null. Current dot next is not equal to null. Current dot next is equal to null. Very good. Let us run and see. Run is done. Submit is done. Submit is also done. Time complexity is big of n. There are nodes like this. And space complexity is not something we have learned. This means space complexity will be big of 1. Submit is done."
+    }
+]

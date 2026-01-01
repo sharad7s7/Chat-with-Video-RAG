@@ -1,0 +1,9 @@
+Hello there!
+
+I'd be happy to help you find out when "Maximum consecutive 1s" was taught in our Data Structures and Algorithms playlist.
+
+The concept of finding the maximum consecutive 1s in an array is explained during Video Number 6. You can watch the relevant part from 14.68 seconds to 16.36 seconds, where the instructor talks about "Maximum consecutive 1."
+
+In this video, you'll learn how to solve the problem efficiently using a simple and effective approach.
+
+So, make sure to watch Video Number 6 and head straight to those timestamps to grasp the concept of finding maximum consecutive 1s in an array. I hope that helps!

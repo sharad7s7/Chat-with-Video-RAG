@@ -1,0 +1,917 @@
+[
+    {
+        "chunks": [
+            {
+                "number": "7",
+                "title": "small",
+                "start": 0.0,
+                "end": 9.0,
+                "text": " Now let's look at the example of K-Radius sub-array average."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 9.0,
+                "end": 21.0,
+                "text": " This is an average and K-Radius sub-array average."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 21.0,
+                "end": 43.0,
+                "text": " You can see 3 elements on the left and 3 elements on the right."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 43.0,
+                "end": 63.0,
+                "text": " If we consider 9 as a pivot, then we have to figure out the average of the 7 elements on the right and 9 on the left."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 64.0,
+                "end": 74.0,
+                "text": " The average of the 7 elements is 35."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 74.0,
+                "end": 84.0,
+                "text": " The average of the 7 elements is 0, 1, 2, 3."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 114.0,
+                "end": 124.0,
+                "text": " We have to figure out the average of the 7 elements on the right and 5 on the left."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 125.0,
+                "end": 135.0,
+                "text": " We can't figure out the average of the 7 elements on the right."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 135.0,
+                "end": 144.0,
+                "text": " We have to figure out the average of the 7 elements on the left."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 144.0,
+                "end": 162.0,
+                "text": " The first method is to figure out the average of the 7 elements on the right."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 162.0,
+                "end": 172.0,
+                "text": " In this video, we will look at the sliding window approach."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 173.0,
+                "end": 182.0,
+                "text": " We will take the result of int RES and put it here."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 182.0,
+                "end": 192.0,
+                "text": " Now let's start."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 192.0,
+                "end": 208.0,
+                "text": " I will create a sliding window and then I will keep on cutting it down to 7."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 208.0,
+                "end": 226.0,
+                "text": " If we see one mark here, then we can say that the unseen lin\u0438\u0442\u0435\u043b\u0438 cross a integer."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 226.0,
+                "end": 231.56,
+                "text": " So I take one by doing long window, I am going to create the first sliding window,"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 231.56,
+                "end": 235.26,
+                "text": " int i is equal to 0, i less than n, no."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 235.26,
+                "end": 238.54,
+                "text": " The first sliding window will be 2 into k plus 1, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 238.54,
+                "end": 239.82,
+                "text": " 2 into k plus 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 239.82,
+                "end": 242.54,
+                "text": " How? 3, 3 and 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 242.54,
+                "end": 246.02,
+                "text": " Okay? 7, 4, 3, 1, 8, 5 and 1, no."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 246.02,
+                "end": 248.34,
+                "text": " Right? So if k is equal to 3, then 7."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 248.34,
+                "end": 252.1,
+                "text": " So let's do one thing, let's save it by doing int idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 252.1,
+                "end": 257.26,
+                "text": " idx is equal to 2 into k plus 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 257.26,
+                "end": 261.78,
+                "text": " Okay? i less than k, i plus plus."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 261.78,
+                "end": 267.3,
+                "text": " Okay? So the first sliding window, I am going to create, nums of i."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 267.3,
+                "end": 271.65999999999997,
+                "text": " Okay? Let's take a temporary variable, int kk is equal to k."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 271.65999999999997,
+                "end": 273.5,
+                "text": " I will tell you for simplicity."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 273.5,
+                "end": 274.5,
+                "text": " Now watch carefully."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 274.5,
+                "end": 280.26,
+                "text": " The answer of the first sliding window, that is, I am explaining 35, is divided by 7."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 280.38,
+                "end": 285.98,
+                "text": " I will keep it in 5, 9k index, i.e. 30, i.e. k index."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 285.98,
+                "end": 294.26,
+                "text": " So I will write rs, I put k into k, k is equal to win divided by,"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 294.26,
+                "end": 295.02,
+                "text": " divided by what?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 295.02,
+                "end": 295.62,
+                "text": " Now watch this."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 295.62,
+                "end": 296.65999999999997,
+                "text": " How will we get the average gas?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 296.65999999999997,
+                "end": 297.9,
+                "text": " How many elements are these?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 297.9,
+                "end": 300.38,
+                "text": " There are 7 elements which I have saved in idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 300.38,
+                "end": 302.14,
+                "text": " idx, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 302.14,
+                "end": 307.06,
+                "text": " Now because the window was long, we will convert it into integer, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 307.06,
+                "end": 308.42,
+                "text": " Into integer, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 308.42,
+                "end": 311.94,
+                "text": " Okay, now we have done the work of the red one, now the blue one."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 311.94,
+                "end": 313.82,
+                "text": " That is, we will move ahead, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 313.82,
+                "end": 316.54,
+                "text": " We will remove the last one and add the next one."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 316.54,
+                "end": 318.18,
+                "text": " Now this work is small, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 318.18,
+                "end": 319.18,
+                "text": " So let's start."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 319.18,
+                "end": 322.54,
+                "text": " Now the i which will be there, we will put the loop now."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 322.54,
+                "end": 324.1,
+                "text": " For the remaining sliding window."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 324.1,
+                "end": 325.18,
+                "text": " Now where are we?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 325.18,
+                "end": 326.42,
+                "text": " We have reached here."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 326.42,
+                "end": 327.14,
+                "text": " Okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 327.14,
+                "end": 329.34000000000003,
+                "text": " Now we have come here, together."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 329.34000000000003,
+                "end": 331.5,
+                "text": " That is, i is equal to idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 331.5,
+                "end": 332.94,
+                "text": " We will start."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 332.94,
+                "end": 333.42,
+                "text": " Okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 333.42,
+                "end": 334.78000000000003,
+                "text": " This is not k, it is idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 334.78000000000003,
+                "end": 335.22,
+                "text": " You know?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 335.22,
+                "end": 336.1,
+                "text": " Where did we go before?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 336.1,
+                "end": 337.14,
+                "text": " We went to idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 337.14,
+                "end": 339.58,
+                "text": " We went to 7, now we will start from 7."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 339.58,
+                "end": 345.18,
+                "text": " idx, i less than n, we will go to n and we will do i plus plus, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 345.18,
+                "end": 346.74,
+                "text": " Basically, we have to do this."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 346.74,
+                "end": 351.86,
+                "text": " Window is equal to, we have to minus it from the window, 7."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 351.86,
+                "end": 353.06,
+                "text": " 7 is 1, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 353.06,
+                "end": 354.65999999999997,
+                "text": " Okay, how will we get 7?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 354.65999999999997,
+                "end": 355.53999999999996,
+                "text": " See, we will get 7."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 355.53999999999996,
+                "end": 359.65999999999997,
+                "text": " Nums, i minus, i minus idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 359.65999999999997,
+                "end": 360.21999999999997,
+                "text": " Okay, look."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 360.21999999999997,
+                "end": 361.3,
+                "text": " Now where are we?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 361.3,
+                "end": 363.06,
+                "text": " We are on 7, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 363.06,
+                "end": 366.21999999999997,
+                "text": " If I subtract 7 from 7, then where will we go?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 366.26000000000005,
+                "end": 367.06,
+                "text": " We will go to 0."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 367.06,
+                "end": 368.54,
+                "text": " We will minus 7 in the future, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 368.54,
+                "end": 369.42,
+                "text": " This is the element."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 369.42,
+                "end": 371.5,
+                "text": " Now where are we on idx?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 371.5,
+                "end": 375.1,
+                "text": " So, idx minus idx for the first element."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 375.1,
+                "end": 376.14000000000004,
+                "text": " So, where will we reach?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 376.14000000000004,
+                "end": 379.62,
+                "text": " We want 7 on index 0, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 379.62,
+                "end": 383.54,
+                "text": " For the blue window, we have to subtract 7 and add 2."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 383.54,
+                "end": 384.94000000000005,
+                "text": " So, I will add 2."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 384.94000000000005,
+                "end": 385.98,
+                "text": " How will I add 2?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 385.98,
+                "end": 388.18,
+                "text": " Plus, numsoft, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 388.18,
+                "end": 389.74,
+                "text": " And rs, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 389.74,
+                "end": 391.74,
+                "text": " rs plus plus k."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 391.74,
+                "end": 393.74,
+                "text": " Now look, k was kept here."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 393.74,
+                "end": 394.86,
+                "text": " We added plus plus, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 394.86,
+                "end": 395.78000000000003,
+                "text": " We got 4 of them."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 395.82,
+                "end": 397.5,
+                "text": " So, rs4 is equal to, what?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 397.5,
+                "end": 400.38,
+                "text": " This window is divided by idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 400.38,
+                "end": 401.61999999999995,
+                "text": " Okay, to get the average."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 401.61999999999995,
+                "end": 402.94,
+                "text": " Int, whose int?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 402.94,
+                "end": 405.85999999999996,
+                "text": " Win divided by idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 405.85999999999996,
+                "end": 406.41999999999996,
+                "text": " Okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 406.41999999999996,
+                "end": 408.14,
+                "text": " Here, this is num."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 408.14,
+                "end": 410.85999999999996,
+                "text": " Okay, here the index will be out of bound."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 410.85999999999996,
+                "end": 413.58,
+                "text": " Because we have assumed, where are we going?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 413.58,
+                "end": 416.17999999999995,
+                "text": " We are not going to the end, we are going to the idx."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 416.17999999999995,
+                "end": 416.82,
+                "text": " Understand?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 416.82,
+                "end": 418.7,
+                "text": " If we assume k is 1000, okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 418.7,
+                "end": 420.82,
+                "text": " And num is of one length, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 420.82,
+                "end": 422.61999999999995,
+                "text": " So, there is no exception here."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 422.61999999999995,
+                "end": 423.94,
+                "text": " So, let's do one thing."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 423.94,
+                "end": 424.86,
+                "text": " Let's do it here."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 424.86,
+                "end": 428.54,
+                "text": " If idx is greater than n, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 428.54,
+                "end": 431.94,
+                "text": " So, return it to res as it is."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 431.94,
+                "end": 433.3,
+                "text": " Okay, there is minus 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 433.3,
+                "end": 435.21999999999997,
+                "text": " Now, we will keep zero instead of minus 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 435.21999999999997,
+                "end": 436.34,
+                "text": " So, what do we do?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 436.34,
+                "end": 437.18,
+                "text": " Let's fill them."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 437.18,
+                "end": 438.62,
+                "text": " Arrays.fill, right?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 438.62,
+                "end": 439.3,
+                "text": " Arrays."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 439.3,
+                "end": 440.5,
+                "text": " Because what are we doing here?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 440.5,
+                "end": 443.02,
+                "text": " Our beautiful index is entering there."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 443.02,
+                "end": 446.38,
+                "text": " But, there is nothing like minus 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 446.38,
+                "end": 447.82,
+                "text": " So, we haven't done anything there."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 447.82,
+                "end": 448.65999999999997,
+                "text": " So, let's do one thing."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 448.65999999999997,
+                "end": 452.74,
+                "text": " First, let's fill the entire array with minus 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 452.74,
+                "end": 453.42,
+                "text": " Okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 453.42,
+                "end": 455.94,
+                "text": " The one who is beautiful will feel it and the one who is left will be minus 1."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 455.94,
+                "end": 456.7,
+                "text": " But, we will stay there."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 456.7,
+                "end": 457.78000000000003,
+                "text": " Okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 457.78000000000003,
+                "end": 459.18,
+                "text": " Let's see further."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 459.18,
+                "end": 459.82,
+                "text": " Accepted."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 459.82,
+                "end": 460.98,
+                "text": " Submit it."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 460.98,
+                "end": 461.78000000000003,
+                "text": " Submit it."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 461.78000000000003,
+                "end": 463.3,
+                "text": " Very good."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 463.3,
+                "end": 465.98,
+                "text": " Talking about time complexity, it is big of n."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 465.98,
+                "end": 468.06,
+                "text": " And we haven't taken anything on it."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 468.06,
+                "end": 468.94,
+                "text": " Okay?"
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 468.94,
+                "end": 471.54,
+                "text": " If we take a result array, it is our answer."
+            },
+            {
+                "number": "7",
+                "title": "small",
+                "start": 471.54,
+                "end": 473.34000000000003,
+                "text": " So, it doesn't count."
+            }
+        ],
+        "text": " Now let's look at the example of K-Radius sub-array average. This is an average and K-Radius sub-array average. You can see 3 elements on the left and 3 elements on the right. If we consider 9 as a pivot, then we have to figure out the average of the 7 elements on the right and 9 on the left. The average of the 7 elements is 35. The average of the 7 elements is 0, 1, 2, 3. We have to figure out the average of the 7 elements on the right and 5 on the left. We can't figure out the average of the 7 elements on the right. We have to figure out the average of the 7 elements on the left. The first method is to figure out the average of the 7 elements on the right. In this video, we will look at the sliding window approach. We will take the result of int RES and put it here. Now let's start. I will create a sliding window and then I will keep on cutting it down to 7. If we see one mark here, then we can say that the unseen lin\u0438\u0442\u0435\u043b\u0438 cross a integer. So I take one by doing long window, I am going to create the first sliding window, int i is equal to 0, i less than n, no. The first sliding window will be 2 into k plus 1, right? 2 into k plus 1. How? 3, 3 and 1. Okay? 7, 4, 3, 1, 8, 5 and 1, no. Right? So if k is equal to 3, then 7. So let's do one thing, let's save it by doing int idx. idx is equal to 2 into k plus 1. Okay? i less than k, i plus plus. Okay? So the first sliding window, I am going to create, nums of i. Okay? Let's take a temporary variable, int kk is equal to k. I will tell you for simplicity. Now watch carefully. The answer of the first sliding window, that is, I am explaining 35, is divided by 7. I will keep it in 5, 9k index, i.e. 30, i.e. k index. So I will write rs, I put k into k, k is equal to win divided by, divided by what? Now watch this. How will we get the average gas? How many elements are these? There are 7 elements which I have saved in idx. idx, okay? Now because the window was long, we will convert it into integer, okay? Into integer, okay? Okay, now we have done the work of the red one, now the blue one. That is, we will move ahead, right? We will remove the last one and add the next one. Now this work is small, okay? So let's start. Now the i which will be there, we will put the loop now. For the remaining sliding window. Now where are we? We have reached here. Okay? Now we have come here, together. That is, i is equal to idx. We will start. Okay? This is not k, it is idx. You know? Where did we go before? We went to idx. We went to 7, now we will start from 7. idx, i less than n, we will go to n and we will do i plus plus, okay? Basically, we have to do this. Window is equal to, we have to minus it from the window, 7. 7 is 1, okay? Okay, how will we get 7? See, we will get 7. Nums, i minus, i minus idx. Okay, look. Now where are we? We are on 7, okay? If I subtract 7 from 7, then where will we go? We will go to 0. We will minus 7 in the future, right? This is the element. Now where are we on idx? So, idx minus idx for the first element. So, where will we reach? We want 7 on index 0, right? For the blue window, we have to subtract 7 and add 2. So, I will add 2. How will I add 2? Plus, numsoft, okay? And rs, right? rs plus plus k. Now look, k was kept here. We added plus plus, okay? We got 4 of them. So, rs4 is equal to, what? This window is divided by idx. Okay, to get the average. Int, whose int? Win divided by idx. Okay? Here, this is num. Okay, here the index will be out of bound. Because we have assumed, where are we going? We are not going to the end, we are going to the idx. Understand? If we assume k is 1000, okay? And num is of one length, right? So, there is no exception here. So, let's do one thing. Let's do it here. If idx is greater than n, right? So, return it to res as it is. Okay, there is minus 1. Now, we will keep zero instead of minus 1. So, what do we do? Let's fill them. Arrays.fill, right? Arrays. Because what are we doing here? Our beautiful index is entering there. But, there is nothing like minus 1. So, we haven't done anything there. So, let's do one thing. First, let's fill the entire array with minus 1. Okay? The one who is beautiful will feel it and the one who is left will be minus 1. But, we will stay there. Okay? Let's see further. Accepted. Submit it. Submit it. Very good. Talking about time complexity, it is big of n. And we haven't taken anything on it. Okay? If we take a result array, it is our answer. So, it doesn't count."
+    }
+]

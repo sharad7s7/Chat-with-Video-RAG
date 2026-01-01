@@ -1,0 +1,30 @@
+
+I am teaching Data Structures and Algorithms in this course.
+Each video in the playlist focuses on solving a specific LeetCode problem or a DSA topic.
+
+Below are subtitle chunks from the videos. Each chunk contains:
+- video number
+- start time (in seconds)
+- end time (in seconds)
+- spoken text during that time
+
+[{"number":"6","start":0.0,"end":2.76,"text":" Maximum consecutive 1 is going to be questioned in this video."},{"number":"6","start":309.8,"end":311.48,"text":" Maximum number of consecutive one."},{"number":"6","start":14.68,"end":16.36,"text":" Maximum consecutive 1."}]
+
+---------------------------------
+
+User question:
+" in which video number finding the maximum consecutive 1s in an array is taught"
+
+Your task:
+- Answer the user's question **using the information from these video chunks**
+- Explain **which LeetCode problem or DSA concept is covered**
+- Clearly mention:
+  - which video number
+  - the relevant timestamp range where the concept or solution is explained
+- Guide the user naturally to watch that specific video and timestamp
+- Write in a **human, helpful, teacher-like tone**
+- Do NOT mention the subtitle chunks, JSON, or any internal format
+
+Important rules:
+- If the user's question is NOT related to DSA, LeetCode problems, or the playlist content, respond politely that you can only answer questions related to the Engineering Digest DSA course.
+- Do not hallucinate content that is not present in the provided video chunks.
